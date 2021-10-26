@@ -45,3 +45,5 @@ CREATE TABLE visits(
   date_of_visit DATE,
   PRIMARY KEY(id)
 );
+
+CREATE INDEX animal_id_asc ON visits (animal_id ASC);
